@@ -11,7 +11,7 @@ from prompts import (
 )
 
 # --- Config
-API_KEY = "AIzaSyAnvpG66vwP9V6KtryVW36GyfLooVtFwvg"
+API_KEY = "Your api"
 GEMINI_MODEL = "models/gemini-2.0-flash"
 
 st.set_page_config(page_title="AI Resume Assistant", layout="wide")
