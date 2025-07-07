@@ -19,7 +19,7 @@ st.set_page_config(page_title="AI Resume Assistant", layout="wide")
 
 # --- Gemini Function
 def ask_gemini(prompt):
-    url = f"https://generativelanguage.googleapis.com/v1beta/{GEMINI_MODEL}:generateContent?key={API_KEY}"
+    url = f"url of gemini api key "
     headers = {"Content-Type": "application/json"}
     body = {"contents": [{"parts": [{"text": prompt}]}]}
     response = requests.post(url, headers=headers, json=body)
